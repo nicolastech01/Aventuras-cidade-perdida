@@ -1,0 +1,45 @@
+body {
+    background-image: url(img/Fundo.avif);
+    background-color: #1D4221;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #64A712;
+    color: rgb(0, 0, 0);
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 0, 0.493);
+    background: #0c2f0c;
+    display: none;
+}
+
+.passo.ativo {
+    border-radius: 10px;
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    border: 1px solid rgba(255, 255, 0, 0.363);
+    border-radius: 5px;
+    max-width: 90%;
+}
